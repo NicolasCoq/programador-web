@@ -124,6 +124,8 @@ img {
     background-color: rgb(167, 218, 231);
     color: rgb(37, 49, 46);
     position: relative;
+    width: 1200px;
+    padding: 20px;
     top: 50px;
     display: flex;
     align-items: center;
