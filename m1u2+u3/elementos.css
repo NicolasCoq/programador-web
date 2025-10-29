@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(217, 244, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    font-family: 'righteous';
+    text-align: center;
+    color: #082f36;
+    background-color: #8db7be;
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px auto;
+    box-shadow: 0px 18px 27px -6px rgba(0, 0, 0, 0.75);
+}
+
+img {
+    width: 55%;
+    height: 55%;
+    border-radius: 25px;
+    display: flex;
+    margin: 0 auto;
+    border: #8db7be solid 10px;
+    box-shadow: 0px 18px 27px -6px rgba(0, 0, 0, 0.75);
+}
+
+#subtitulo1 {
+    font-family: 'righteous';
+    font-size: 80px;
+    background-color: rgb(141, 212, 189);
+    color: #08362e;
+    width: 350px;
+    border-radius: 0px 24px 24px 24px;
+    padding: 10px;
+    box-shadow: 16px 18px 27px -6px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 150px;
+    left: 8px;
+}
+
+#subtitulo2 {
+    font-family: 'righteous';
+    font-size: 80px;
+    background-color: rgb(141, 212, 189);
+    color: #08362e;
+    width: 350px;
+    border: 5px;
+    border-radius: 24px 0px 24px 24px;
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    right: 8px;
+    top: 150px;
+    box-shadow: -21px 18px 27px -6px rgba(0,0,0,0.75);
+}
+
+#edad {
+    font-family: 'righteous';
+    font-size: 30px;
+    background-color: #8db7be;
+    width: 240px;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    border-radius: 0px 20px 20px 0px;
+    padding-right: 25px;
+    text-align: end;
+    box-shadow: 16px 18px 27px -6px rgba(0, 0, 0, 0.75);
+
+}
+
+#domicilio{
+    font-family: 'righteous';
+    font-size: 30px;
+    background-color: #8db7be;
+    width: 240px;
+    position: absolute;
+    top: 340px;
+    right: 0px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 25px;
+    text-align: start;
+    box-shadow: -21px 18px 27px -6px rgba(0,0,0,0.75);
+}
+
+#contenedor1{
+    font-family: 'righteous';
+    background-color: rgb(157, 228, 210);
+    color: rgb(37, 49, 46);
+    text-align: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    left: 0px;
+    top: 550px;
+    padding-left: 20px;
+    box-shadow: 16px 18px 27px -6px rgba(0, 0, 0, 0.75);
+}
+
+#contenedor2{
+    font-family: 'righteous';
+    background-color: rgb(157, 228, 210);
+    color: rgb(37, 49, 46);
+    text-align: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+    position: absolute;
+    right: 0px;
+    top: 550px;
+    padding-left: 20px;
+    box-shadow: -21px 18px 27px -6px rgba(0,0,0,0.75);
+}
+
+#contenedorperfil{
+    font-family: 'righteous';
+    background-color: rgb(167, 218, 231);
+    color: rgb(37, 49, 46);
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 1px -6px 27px -6px rgba(0,0,0,0.75);
+
+}
+
+#perfil{
+    font-size: 40px;
+    margin: 5px;
+    background-color: rgb(158, 240, 226);
+    border-radius: 20px;
+    padding: 8px;
+
+}
