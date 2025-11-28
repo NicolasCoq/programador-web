@@ -1,0 +1,31 @@
+/* 
+font-family: "Vend Sans", sans-serif;
+font-family: "Quantico", sans-serif; 
+*/
+
+footer {
+    background-color: rgb(196, 186, 204);
+}
+
+.navbar-brand {
+    font-family: 'vcr osd mono';
+    font-size: 30px;
+}
+
+.card {
+    margin-top: 10px; 
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    margin-top: 12px;
+}
+
+h5 {
+    font-family: 'Quantico'
+}
+
+h3 {
+    font-family: 'Quantico'
+}
