@@ -1,0 +1,29 @@
+<div class="container" style="margin: 100px auto;">
+    <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+        <h4>Agregar una nueva novedad</h4>
+        <div class="mb-3">
+            <label for="titulo" class="form-label">Titulo</label>
+            <input type="text" class="form-control" placeholder="Titulo" name="titulo" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="descripciones" class="form-label">Descripciones</label>
+            <input type="text" class="form-control" placeholder="Dato 1" name="dato1">
+            <input type="text" class="form-control" placeholder="Dato 2" name="dato2">
+            <input type="text" class="form-control" placeholder="Dato 3" name="dato3">
+            <input type="text" class="form-control" placeholder="Dato 4" name="dato4">
+        </div>
+        <div class="mb-3">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="text" class="form-control" placeholder="$" name="precio" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="fromFile" class="form-label">Imagen</label>
+            <input class="form-control" type="file" name="imagen" id="imagen">
+        </div>
+        <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+
+    {{#if error}}
+    <p>No se pudo cargar la novedad</p>
+    {{/if}}
+</div>
