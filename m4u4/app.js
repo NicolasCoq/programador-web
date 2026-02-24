@@ -25,6 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 app.use(session({
   secret: 'ghdsrjwefjywerifuwehgf',
   resave: false,
@@ -54,6 +55,18 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter)
 app.use('/admin/novedades', secured, adminRouter)
+
+app.get('/perifericos', (req, res) => {
+    res.render('perifericos');
+});
+
+app.get('/monitores', (req, res) => {
+    res.render('monitores');
+});
+
+app.get('/componentes', (req, res) => {
+    res.render('componentes');
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

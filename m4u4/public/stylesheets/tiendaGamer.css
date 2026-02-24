@@ -3,6 +3,10 @@ font-family: "Vend Sans", sans-serif;
 font-family: "Quantico", sans-serif; 
 */
 
+body {
+    margin-top: 70px;
+}
+
 footer {
     background-color: rgb(196, 186, 204);
 }
@@ -18,6 +22,7 @@ footer {
     min-height: 700px;
     color: white;
 }
+
 
 h1 {
     font-family: 'Vend Sans';
@@ -42,6 +47,13 @@ h1 {
 
 h5 {
     font-family: 'Quantico'
+}
+
+h2 {
+    font-family: 'Quantico';
+    color: rgb(20, 20, 20);
+    text-decoration: underline rgb(85, 9, 184);
+    text-decoration-thickness: 4px;
 }
 
 h3 {
@@ -76,4 +88,24 @@ html {
 
 .scroll_section {
     scroll-margin-top: 80px;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .btn {
+  margin-top: auto;
 }
