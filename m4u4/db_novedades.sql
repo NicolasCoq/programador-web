@@ -32,7 +32,7 @@ CREATE TABLE `novedades` (
   `precio` float NOT NULL,
   `img_id` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `novedades` (
 
 LOCK TABLES `novedades` WRITE;
 /*!40000 ALTER TABLE `novedades` DISABLE KEYS */;
-INSERT INTO `novedades` VALUES (1,'Teclado Ajazz ak820pro','Conectividad con múltiples dispositivos.','Resiste a salpicaduras.','Pantalla integrada.','Tipo de teclado: mecánico.',68.99,'oyq9uv1zt8unfo1lhj12'),(3,'Mouse Ajazz aj159pro','Es inalámbrico.','Orientación de la mano: ambidiestra.','Cuenta con un sensor óptico.','',45.99,'snn64hafpbckgtp7zviy'),(4,'Micrófono Fifine AM8','Formato: omnidireccional.','Dispositivos compatibles: ordenador.','Conector de salida: USB.','Cable de 2m.',54.99,'micro1_cg2z7a'),(5,'Auriculares VXE Siren V1','Ultraligero: 200g.','Conectividad tri-modo.','Latencia de 15ms en 2.4G.','Autonomia de bateria: hasta 98hs.',39.99,'auriculares1_ihhgmq'),(6,'Mando GameSir NovaLite','Control Inalámbrico.','Diseño ergonómico.','Compatible con Android.','Sist. de vibración incorporado.',24.99,'joystick1_wproil'),(7,'Monitor Asrock Challenger','Tamaño de pantalla: 27\".','Panel IPS.','Resolución máxima: 1920x1080p.','Conexión HDMI v1.4 y VGA.',109.99,'monitor1_khduoh'),(10,'Webcam Logitech C920x','Resolución máxima de video: 1920px x 1080px.','Compatible con Skype, Facebook, Twitter, YouTube.','Incluye luz led.','Imagen con resolución de 3Mpx.',69.99,'zb7dti1n1lv3t3ur1lew');
+INSERT INTO `novedades` VALUES (1,'Teclado Ajazz ak820pro','Conectividad con múltiples dispositivos.','Resiste a salpicaduras.','Pantalla integrada.','Tipo de teclado: mecánico.',68.99,'e1jidhnew13kkuyzabj1'),(3,'Mouse Ajazz aj159pro','Es inalámbrico.','Orientación de la mano: ambidiestra.','Cuenta con un sensor óptico.','',45.99,'snn64hafpbckgtp7zviy'),(4,'Micrófono Fifine AM8','Formato: omnidireccional.','Dispositivos compatibles: ordenador.','Conector de salida: USB.','Cable de 2m.',54.99,'micro1_cg2z7a'),(5,'Auriculares VXE Siren V1','Ultraligero: 200g.','Conectividad tri-modo.','Latencia de 15ms en 2.4G.','Autonomia de bateria: hasta 98hs.',39.99,'auriculares1_ihhgmq'),(6,'Mando GameSir NovaLite','Control Inalámbrico.','Diseño ergonómico.','Compatible con Android.','Sist. de vibración incorporado.',24.99,'joystick1_wproil'),(7,'Monitor Asrock Challenger','Tamaño de pantalla: 27\".','Panel IPS.','Resolución máxima: 1920x1080p.','Conexión HDMI v1.4 y VGA.',109.99,'monitor1_khduoh'),(11,'Webcam Logitech C920x','Resolución máxima de video: 1920px x 1080px.','Compatible con Skype, Facebook, Twitter, YouTube.','Incluye luz led.','Imagen con resolución de 3Mpx.',69.99,'zz81lf0uu6pxhrom2ug1');
 /*!40000 ALTER TABLE `novedades` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-02-22 19:21:17
+-- Dump completed on 2026-02-25 14:14:29
